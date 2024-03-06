@@ -1,0 +1,123 @@
+/* transition: all 800ms ease 0s; */
+:root {
+    --main:#FFFFFF;
+    --one: #D26222;
+    --two:#F47227;
+    --three:#FC7628;
+    --four:#B0521C;
+    --five:#F42E27;
+    --six:#FC2F28;
+    --seven:#D22722;
+    --eight:#FCE728;
+    --nine:#FCC428;
+    --ten:#F4BD27;
+    --eleven:#8E2917;
+}
+* {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+body{
+    background-color: var(--seven);
+    color: var(--main);
+    line-height: normal;
+    font-family: 'Playfair Display', sans;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:var(--main);
+}
+a:hover{
+    color:var(--ten);
+}
+ul, h1, h2, h3, h4, p, a {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1230px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.header {
+    width:100%;
+}
+.header-h1 {
+    text-align: center;
+    padding: 15px 0;
+}
+.nav-list {
+    display:flex;
+    gap:30px;
+}
+
+.main-list_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 45px;
+}
+.queluz,
+.sanssouci,
+.francois,
+.antoine,
+.jean,
+.daquin,
+.couperin {
+    text-align: center;
+    background-size: 400px;
+}
+.queluz-title, .sanssouci-title, .francois-title, .antoine-title, .jean-title, .couperin-title {
+    margin-left: 420px;
+    padding: 10px;
+}
+.queluz-text, .sanssouci-text, .francois-text, .antoine-text, .jean-text, .couperin-text {
+    padding-left: 420px;
+    padding-right: 20px;
+}
+.queluz {
+    background-image: url(https://ua.topvoyager.com/wp-content/uploads/2023/04/palace-of-queluz-1.jpg);
+}
+.sanssouci {
+    background-image: url(https://img1.advisor.travel/555x465px-Sanssouci_37.jpg);
+}
+.francois {
+    background-image: url(https://uploads7.wikiart.org/images/francois-boucher/madame-bergeret-1766.jpg);
+}
+.antoine {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Jean-Antoine_Watteau_-_Pierrot%2C_dit_autrefois_Gilles.jpg/280px-Jean-Antoine_Watteau_-_Pierrot%2C_dit_autrefois_Gilles.jpg);
+}
+.jean {
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTjgupcWCIanw2Tv1z007ETT3BTUYzIbJvvrsKGzkJojlsU18xB);
+}
+.daquin {
+    background-image: url(https://cm.author.today/content/2023/06/19/04f2be8758ed485b85298fecb9277321.jpg);
+    background-size: 300px;
+}
+.daquin-title {
+    margin-left: 320px;
+}
+.daquin-text {
+    margin-left: 320px;
+}
+.couperin {
+    background-image: url(https://lh3.googleusercontent.com/proxy/LlETM1owjEqrDgBwgpS8LuLQYwIYon47eQtfkqOubM0uRHGjrt_bDIDzNQLdEos-Ivw-2WoXLIK7LBoY_1WOnu2YoZcOH1iAX_fiSQo6xPzat_6cwg);
+}
+
+.footer-text {
+    padding: 30px;
+}
+
